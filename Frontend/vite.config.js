@@ -9,7 +9,11 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
 
-      includeAssets: ["favicon.ico"],
+ includeAssets: [
+  "favicon.ico",
+  "image.png",
+  "image.png",
+],
 
       manifest: {
         name: "Harsh Notes",
