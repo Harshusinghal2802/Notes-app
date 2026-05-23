@@ -6,7 +6,9 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 import "./index.css";
+import { registerSW } from "virtual:pwa-register";
 
+registerSW({ immediate: true });
 import { AuthProvider } from "./context/AuthContext";
 
 ReactDOM.createRoot(

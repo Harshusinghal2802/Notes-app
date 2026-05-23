@@ -86,7 +86,7 @@ export default function Navbar({
           {user && (
             <input
               type="text"
-              placeholder="Search..."
+              placeholder="search notes"
               value={search}
               onChange={(e) =>
                 setSearch(e.target.value)
